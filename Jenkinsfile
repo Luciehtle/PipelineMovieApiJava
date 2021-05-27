@@ -36,7 +36,9 @@
         stage('Package') {
             steps {
                 sh "mvn -DskipTests package"
-             archiveArtifacts 'target/*.jar'
+                archiveArtifacts 'target/*.jar'
+                sh "cp target/*.ar /home/luciehtle/Repoartifacts/"
+
             }
         }
     }
