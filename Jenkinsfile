@@ -37,7 +37,7 @@
             steps {
                 sh "mvn -DskipTests package"
                 archiveArtifacts 'target/*.jar'
-                sh "cp target/*.ar /home/luciehtle/Repoartifacts/"
+                sh "cp target/*.ar /home/luciehtle/RepoArtifacts/"
 
             }
         }
