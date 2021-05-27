@@ -7,7 +7,7 @@
     }
   
   parameters {
-   string (name: 'BRANCH', defaultValue: 'main', description: 'Git branch of the Java Project')
+   string (name: 'BRANCH', defaultValue: 'master', description: 'Git branch of the Java Project')
   }
   
     stages {
